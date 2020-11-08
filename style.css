@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    /*font-size: 14px;*/
+    font-size: 14px;
 }
 
 body{
@@ -23,7 +23,6 @@ body{
     justify-content: space-around; 
     width: 60%;    
     min-height: 34rem;
-    font-size: 14px;
 }
 
 .instagram-phone{
@@ -143,14 +142,6 @@ textarea:focus, input:focus{
     font-size: 12px;
 }
 
-/*.group-conta{
-    background: white;
-    border: #DBDBDB 1px solid;
-    text-align: center;
-    padding: 20px 0 20px 0;
-    margin-bottom: 15px;
-}*/
-
 .group span{
     color: #0095F6;
     font-weight: bold;
@@ -186,13 +177,13 @@ textarea:focus, input:focus{
     .instagram-wrapper{
         width: 90%;
     }
+
+    .group{
+        width: 90%;
+    }
 }
 
 @media (max-width:650px){
-    /*body{
-        background: white;
-    }*/
-
     .instagram-wrapper{
         width: 90%;
     }
@@ -216,6 +207,27 @@ textarea:focus, input:focus{
 
 @media (max-width:400px){
     .instagram-wrapper{
+        width: 90%;
+    }
+
+    .group{
         font-size: 10px;
+        width: 80%;
+    }
+
+    .group span{
+        font-size: 11px;
+    }
+
+    .input{
+        font-size: 9px;
+    }
+
+    .link-face a, .link-senha a{
+        font-size: 11px;
+    }
+
+    .download{
+        width: 80%;
     }
 }
